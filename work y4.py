@@ -1,5 +1,6 @@
-#! user / 600510577
-
+#hw 01
+#problem 3
+#204111 sec 001
 millisec=(float)(input("millisec:"))
 secord=int(millisec/1000)
 minute=int(secord/60)
@@ -12,5 +13,3 @@ co=int(millisec/60000) -(60*hour)
 io=int(millisec/3600000) -(24*day)
 
 print('day %.0f'%day,'hour %.0f'%io,'minute %.0f'%co,'secord %.0f'%bo,'millisec %.0f'%ho)
-
-
